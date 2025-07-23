@@ -1,0 +1,31 @@
+// Apple ML Research inspired theme
+:root {
+  --light: #ffffff;
+  --lightgray: #f8f9fa;
+  --gray: #6c757d;
+  --darkgray: #343a40;
+  --dark: #212529;
+  --secondary: #007bff;
+  --tertiary: #17a2b8;
+  --highlight: #fff3cd;
+  --textHighlight: #000;
+}
+
+// Clean, minimal typography
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+// Research-focused styling
+.article-title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.backlinks {
+  border-left: 3px solid var(--secondary);
+  padding-left: 1rem;
+  margin: 2rem 0;
+}
